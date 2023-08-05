@@ -17,12 +17,6 @@ menu:
     - name: 自我介绍
       pageRef: /about
       weight: 1
-    - name: 视频专栏
-      pageRef: /videos
-      weight: 2
-    - name: 分类
-      pageRef: /tags
-      weight: 3
 
 outputs:
   home:
