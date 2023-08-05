@@ -1,0 +1,45 @@
+baseURL: http://example.org/  #后期绑定域名
+languageCode: en-us
+title: 🌤我们的记录
+theme: paper  #主题名称
+
+enableInlineShortcodes: true #允许内联短码
+enableEmoji: true   #允许使用 Emoji 表情，建议 true
+enableRobotsTXT: true #允许爬虫抓取到搜索引擎，建议 true
+hasCJKLanguage: true #自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+menu:
+  main:
+    - name: 自我介绍
+      pageRef: /about
+      weight: 1
+    - name: 视频专栏
+      pageRef: /videos
+      weight: 2
+    - name: 分类
+      pageRef: /tags
+      weight: 3
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+
+params:
+ instagram: universityofqueensland #社交账号展示
+ VisitCount: true
+ ShowWordCounts: true
+ ShowShareButtons: true
+ ShowReadingTime: true
+ comments: true
