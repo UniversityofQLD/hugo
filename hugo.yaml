@@ -1,4 +1,4 @@
-baseURL: http://example.org/  #后期绑定域名
+baseURL: https://iaape.github.io/hugo/  #后期绑定域名
 languageCode: en-us
 title: 🌤我们的记录
 theme: paper  #主题名称
